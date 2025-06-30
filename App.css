@@ -1,0 +1,156 @@
+
+body{
+
+    margin: 0;
+    padding: 0;
+   
+    
+
+}
+
+
+.logo{
+height: 80px;
+width: 80px;
+border-radius: 50%;
+margin-left: 20px;
+
+
+
+}
+
+
+.heading{
+
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid black; */
+  
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    
+    background-color: rgb(207, 99, 32);
+    color: white;
+}
+
+.navbar ul{
+
+
+    display: flex;
+    list-style: none;
+   gap: 40px;
+   margin-right: 100px;
+   
+
+ 
+
+
+}
+
+
+.navbar ul li{
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+.bodys{
+
+    margin-top: 50px;
+   
+}
+
+.seracharea{
+    display: flex;
+    gap: 40px;
+    margin-left: 50px;
+}
+
+.search{
+
+        padding: 10px;
+        width: 400px;
+        border-radius: 40px;
+       border: 1px solid black;
+
+}
+
+.btn{
+    padding: 4px;
+    width: 100px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+
+
+.card-container{
+
+    width: 240px;
+    height: 300px;
+  
+  padding: 5px;
+   margin: 30px;
+}
+
+.card-container:hover{
+
+
+  border: 1px solid black;
+  cursor: pointer;
+
+}
+
+
+
+.img2{
+    width:240px ;
+    height: 150px;
+    object-fit: cover;
+   
+}
+
+.cards{
+
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+.shimmer{
+
+    width:240px ;
+    height: 150px;
+    background-color:#f0f0f0;
+
+}
+
+
+.shimmer-cont{
+
+    display: flex;
+    flex-wrap: wrap;
+     padding: 5px;
+     margin: 30px;
+ 
+   gap: 70px
+}
+
+
+
+.navigate:hover{
+    color: rgb(0, 0, 0);
+}
+
+.navigate{
+
+
+ text-decoration: none;
+ color: white;
+
+
+}
