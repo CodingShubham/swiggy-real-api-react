@@ -1,4 +1,4 @@
-import Card from "./Card";
+import Card, {recommended} from "./Card";
 import { useState, useEffect } from "react";
 import Shimmerui from "./Shimmerui";
 import { Link } from "react-router-dom";
@@ -11,6 +11,9 @@ const BodyContent=()=>{
 const[data, setdata]=useState([]);
 const[filterdata,setfilterdata]=useState([]);
 const[fetchdata,setfetchdata]=useState("");
+
+    
+const HigheorderComponent=recommended(Card);
 
 
 
@@ -87,7 +90,7 @@ setdata(json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restauran
         {filterdata.map((item, index) =>( 
             
 
-            <Link key={item.info.id || index} to={"/restraunts/"+ item.info.id}><Card  resdata={item}/></Link>
+            <Link className="cardlink" key={item.info.id || index} to={"/restraunts/"+ item.info.id}>{item.info.avgRating>4.4?(<HigheorderComponent  resdata={item}/>) :(<Card  resdata={item}/>) }</Link>
             
          
         ))}

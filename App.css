@@ -1,3 +1,5 @@
+/* @import "tailwindcss"; */
+
 
 body{
 
@@ -116,6 +118,7 @@ margin-left: 20px;
 
     display: flex;
     flex-wrap: wrap;
+   
     
     
 }
@@ -153,4 +156,101 @@ margin-left: 20px;
  color: white;
 
 
+}
+
+.cardlink{
+    text-decoration: none;
+    color: black;
+}
+
+.label{
+    background-color: black;
+    border-radius: 12px;
+    border: 2px solid black;
+    color: white;
+    padding: 3px;
+    margin: 80px 0px 0px 35px
+}
+
+
+.menus{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: small;
+    
+   
+}
+
+.reccom-header{
+ 
+
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+    padding: 6px;
+   
+
+    
+     cursor: pointer;
+  
+   
+}
+
+.category{
+  width: 700px;
+   height: min-content;
+ 
+ background-color: rgba(238, 236, 236, 0.973);
+
+  margin-left: 5%;
+  border-radius: 10px;
+ 
+padding: 0px 10px 0px 10px;
+      box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+      margin-bottom: 40px;
+      
+     
+     
+     
+
+}
+
+.price{
+    margin-top: 20px;
+    font-weight: 600;
+   
+}
+
+.names{
+
+    font-size: large;
+    font-weight: 600;
+}
+
+.desc{
+     border-bottom: 1px solid black;
+     margin-bottom: 40px;
+}
+
+
+.bannermenu{
+    width: 8rem;
+    height: 7rem;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-left: 20rem;
+    
+}
+
+.headitems{
+    display: flex;
+    gap: 10px;
+}
+
+.imghead{
+    display: flex;
+  justify-content: flex-end;
 }

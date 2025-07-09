@@ -18,12 +18,33 @@ ${info.cloudinaryImageId}`;
 
       <h5>{info.name}</h5>
       
-      <h6>{resdata.costForTwo}</h6>
+      <h6>{info.costForTwo}</h6>
       <h6 >{info.locality}</h6>
       <h6>{info.
  avgRatingString}</h6>
     </div>
   );
 };
+
+
+
+export const recommended=(Card)=>{
+
+  return (props)=>{
+
+
+    return(
+      <div className="labeldiv">
+
+      <label className="label">Reccomended</label>
+      <Card {...props}/>
+
+      </div>
+     
+    );
+    
+  }
+
+}
 
 export default Card;
